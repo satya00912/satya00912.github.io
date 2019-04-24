@@ -1,0 +1,7 @@
+@font-face{
+	font-family: thefont;
+	src:url(UtopiaStd-BlackHeadline.otf);
+}
+h2{
+	font-family:thefont;
+}
