@@ -1,23 +1,25 @@
 @font-face{
-	font-family: thefont;
-	src:url(UtopiaStd-BlackHeadline.otf);
+ font-family: thefont;
+ src:url(UtopiaStd-BlackHeadline.otf);
 }
 #ayorender_logo{
-	font-family:thefont;
+ font-family:thefont;
 }
 .square{
-	position:relative;
-	height: 100px;
+ position:relative;
+ height: 100px;
     width: 100px;
     border-radius: 50%;
     border:5px solid black;
     top:105px;
     left:35px;
     z-index:-1;
+    animation-name: example1;
+    animation-duration: 8s;
 }
 .square1{
-	position:relative;
-	height: 45px;
+ position:relative;
+ height: 45px;
     width: 45px;
     border-radius: 50%;
     background-color:white;
@@ -26,6 +28,6 @@
     z-index:-1;
 }
 #ayorender_text{
-	font-size:32px;
-	z-index:1;
+ font-size:32px;
+ z-index:1;
 }
